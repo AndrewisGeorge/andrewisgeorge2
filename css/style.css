@@ -1,0 +1,94 @@
+/* Style Top To Bottom  */
+/*slash star star slash allows comments you to write comments as you work and style elements*/
+/*Per Scholas Pre Work CSS Style Sheet that is linked to index.htm and stories.html*/
+/*Andrew Mortenson Pre Work*/
+/*Elements Styled*/
+/*both backgrounds match and are the same*/
+body { 
+    background-color:lightskyblue;
+  }
+  
+  
+  /* h1, h2, h3, text centered color red */
+  h1, h2, h3, nav {
+    color: red;
+    text-align: center;
+  }
+  
+  /*  paragraphs to black */
+  p {
+    color: black;
+    text-align: center;
+    box-shadow: 5px 5px 10px #888888;
+  }
+  
+  /* anchor tags text color links to red */
+  a {
+    color: red;
+  }
+  
+  /* background color of list items to yellow */
+  li {
+    background-color: yellow;
+    
+  }
+  /*l:hover used to identify element background hover mouse turn to white added to yellow background*/
+  li:hover{
+    background-color:white;
+
+
+  }
+  /*table border red*/
+   table {
+    border-color: red;
+    border: 5px solid red;
+    box-shadow: auto;
+    width: 100%;
+  }
+ /*px= pixel (video iframe) (img(both pics) tags solid shaded border  */
+ iframe, img {
+  border: 5px solid red;
+  box-shadow: auto; 
+  
+}
+
+  /*all list centered*/
+    .centered-list {
+    
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      box-shadow: auto;
+  
+    }
+
+ /*list enlarged text, bold, color red */
+  .large-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+  }
+/*paragraph text pixel size*/
+  .big-text {
+    font-size: 24px;
+
+}
+
+/*large-nav font size*/
+.nav-large {
+  font-size: 24px;
+}
+/*#hash symbol used to identify id selector in css*/
+/*unique paragraph as requested on one page style*/
+#unique-paragraph {
+  color:yellow;
+  font-size: 150%;
+}
+
+/*(suggestion feedback form)styles*/
+.center-form {
+  display: block;
+      margin: 0 auto;
+      text-align: center;
+      box-shadow: auto;
+}
